@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.DisplayHotelController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="220.0" layoutX="40.0" layoutY="140.0" stroke="#9d9d9d" strokeType="INSIDE" width="186.0" />
+      <Rectangle fx:id="rect1" arcHeight="5.0" arcWidth="5.0" fill="#34e0a1" height="25.0" layoutX="55.0" layoutY="308.0" stroke="#34e0a1" strokeType="INSIDE" width="153.0" />
+      <Label fx:id="nomeCittà" layoutX="254.0" layoutY="28.0" text="Hotel a città">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="nextPage" layoutX="591.0" layoutY="438.0" mnemonicParsing="false" onAction="#nextPage" text="Next Page" />
+      <Button fx:id="prevPage" layoutX="40.0" layoutY="438.0" mnemonicParsing="false" onAction="#prevPage" text="Previous Page" />
+      <Button layoutX="634.0" layoutY="13.0" mnemonicParsing="false" onAction="#backHome" text="Home">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="nome1" layoutX="45.0" layoutY="149.0" prefHeight="27.0" prefWidth="171.0" text="Nome Hotel 1">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="rank1" layoutX="47.0" layoutY="204.0" prefHeight="27.0" prefWidth="171.0" text="Rank:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="telefono1" layoutX="45.0" layoutY="250.0" prefHeight="27.0" prefWidth="179.0" text="Tel:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Text fx:id="text1" layoutX="54.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="  Maggiori informazioni" wrappingWidth="153.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Rectangle fx:id="rect2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="220.0" layoutX="257.0" layoutY="140.0" stroke="#9d9d9d" strokeType="INSIDE" width="186.0" />
+      <Rectangle fx:id="rect3" arcHeight="5.0" arcWidth="5.0" fill="#34e0a1" height="25.0" layoutX="272.0" layoutY="308.0" stroke="#34e0a1" strokeType="INSIDE" width="153.0" />
+      <Label fx:id="nome2" layoutX="262.0" layoutY="149.0" prefHeight="27.0" prefWidth="171.0" text="Nome Hotel 2">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="rank2" layoutX="264.0" layoutY="204.0" prefHeight="27.0" prefWidth="171.0" text="Rank:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="telefono2" layoutX="262.0" layoutY="250.0" prefHeight="27.0" prefWidth="179.0" text="Tel:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="rect4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="220.0" layoutX="476.0" layoutY="140.0" stroke="#9d9d9d" strokeType="INSIDE" width="186.0" />
+      <Rectangle fx:id="rect5" arcHeight="5.0" arcWidth="5.0" fill="#34e0a1" height="25.0" layoutX="491.0" layoutY="308.0" stroke="#34e0a1" strokeType="INSIDE" width="153.0" />
+      <Label fx:id="nome3" layoutX="481.0" layoutY="149.0" prefHeight="27.0" prefWidth="171.0" text="Nome Hotel 3">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="rank3" layoutX="483.0" layoutY="204.0" prefHeight="27.0" prefWidth="171.0" text="Rank:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="telefono3" layoutX="481.0" layoutY="250.0" prefHeight="27.0" prefWidth="179.0" text="Tel:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Text fx:id="text2" layoutX="272.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="  Maggiori informazioni" wrappingWidth="153.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="text3" layoutX="490.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="  Maggiori informazioni" wrappingWidth="153.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

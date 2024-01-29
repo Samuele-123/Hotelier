@@ -1,0 +1,5 @@
+.rating > .container > .button:disabled {
+    -fx-opacity: 1;
+}
+
+

@@ -1,0 +1,68 @@
+[
+  {
+    "username": "user1",
+    "email": "user@gmail.com",
+    "password": "d496e428da1a2c630dd31abab757ec1d25f6e6ab9bacc504747601a0f4fcabc7",
+    "name": "Gianfranco",
+    "surname": "Casale",
+    "phone": "1234567890",
+    "birthdate": "2002-11-18",
+    "reviewCounter": 2,
+    "badge": "Recensore"
+  },
+  {
+    "username": "giulia23",
+    "email": "giulia@gmail.com",
+    "password": "6b8cf2601bd24294ab91258d71b894d1bd6e636e275f1a80884fbb72d2e97561",
+    "name": "Giulia",
+    "surname": "Giacomelli",
+    "phone": "3334445678",
+    "birthdate": "2001-07-19",
+    "reviewCounter": 0,
+    "badge": "Recensore"
+  },
+  {
+    "username": "samu123",
+    "email": "samuele@outlook.it",
+    "password": "3555c1c311ae0bc048528e4b8d339489cf7296d5b3a708cebd488d515e94c2d9",
+    "name": "Samuele",
+    "surname": "Punzo",
+    "phone": "3334445321",
+    "birthdate": "2002-08-24",
+    "reviewCounter": 3,
+    "badge": "Recensore"
+  },
+  {
+    "username": "asia",
+    "email": "asia.marconcini2005@gmail.com",
+    "password": "3aa9017c5772126c322c039cb2da05a869a229c072de8d135816e268872f38df",
+    "name": "Asia",
+    "surname": "Marconcini",
+    "phone": "3928016149",
+    "birthdate": "2005-10-18",
+    "reviewCounter": 7,
+    "badge": "Recensore"
+  },
+  {
+    "username": "admin",
+    "email": "admin@gmail.com",
+    "password": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+    "name": "Samuele",
+    "surname": "Punzo",
+    "phone": "1112223456",
+    "birthdate": "2002-11-18",
+    "reviewCounter": 10,
+    "badge": "Recensore"
+  },
+  {
+    "username": "france03",
+    "email": "france@mail.com",
+    "password": "9d9b6d37f58040b5c67e6b4dc3ded30bec9dcdff924d250f44b238c2fd2b231f",
+    "name": "Francesco",
+    "surname": "boh",
+    "phone": "3334445678",
+    "birthdate": "2003-06-21",
+    "reviewCounter": 0,
+    "badge": "Recensore"
+  }
+]

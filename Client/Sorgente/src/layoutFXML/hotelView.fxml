@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import org.controlsfx.control.Rating?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" stylesheets="/css/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.HotelController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="87.0" layoutX="391.0" layoutY="392.0" stroke="BLACK" strokeType="INSIDE" width="295.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="37.0" layoutX="391.0" layoutY="332.0" stroke="BLACK" strokeType="INSIDE" width="295.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="37.0" layoutX="391.0" layoutY="267.0" stroke="BLACK" strokeType="INSIDE" width="295.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="101.0" layoutX="391.0" layoutY="142.0" stroke="BLACK" strokeType="INSIDE" width="295.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="340.0" layoutX="13.0" layoutY="141.0" stroke="BLACK" strokeType="INSIDE" width="320.0" />
+      <Label fx:id="nome" alignment="CENTER" layoutX="123.0" layoutY="37.0" prefHeight="53.0" prefWidth="454.0" text="Nome hotel dinamico">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Text layoutX="391.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Descrizione">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="391.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Città">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="391.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telefono">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="391.0" layoutY="387.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Servizi">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="634.0" layoutY="14.0" mnemonicParsing="false" onAction="#backHome" text="Home">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="descrizione" alignment="TOP_LEFT" layoutX="396.0" layoutY="142.0" prefHeight="101.0" prefWidth="285.0" text="Label" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="città" alignment="TOP_LEFT" layoutX="396.0" layoutY="267.0" prefHeight="37.0" prefWidth="285.0" text="Label">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="telefono" alignment="TOP_LEFT" layoutX="396.0" layoutY="332.0" prefHeight="37.0" prefWidth="285.0" text="Label">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="servizi" alignment="TOP_LEFT" layoutX="396.0" layoutY="392.0" prefHeight="87.0" prefWidth="285.0" text="Label" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Text layoutX="13.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rank:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Label fx:id="rank" layoutX="69.0" layoutY="104.0" prefHeight="23.0" prefWidth="57.0" text="Label">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Text layoutX="131.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Recensioni">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="21.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rate:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="21.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Posizione:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="20.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pulizia:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="20.0" layoutY="341.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Servizi:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="20.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prezzo:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Rating fx:id="rate" layoutX="128.0" layoutY="194.0" partialRating="true" />
+      <Rating fx:id="ratePosizione" layoutX="128.0" layoutY="235.0" partialRating="true" prefHeight="32.0" prefWidth="176.0" />
+      <Rating fx:id="ratePulizia" layoutX="128.0" layoutY="276.0" partialRating="true" prefHeight="32.0" prefWidth="176.0" />
+      <Rating fx:id="rateServizi" layoutX="128.0" layoutY="318.0" partialRating="true" prefHeight="32.0" prefWidth="176.0" />
+      <Rating fx:id="ratePrezzo" layoutX="128.0" layoutY="361.0" partialRating="true" prefHeight="32.0" prefWidth="176.0" />
+      <Button layoutX="128.0" layoutY="421.0" mnemonicParsing="false" onAction="#recensisci" text="Dicci la tua!">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

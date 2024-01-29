@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.HomeController">
+      <children>
+      <Circle fill="#1f93ff00" layoutX="663.0" layoutY="38.0" radius="22.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="180.0" layoutX="472.0" layoutY="294.0" stroke="BLACK" strokeType="INSIDE" width="180.0" />
+            <Text layoutX="220.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOTELIER">
+               <font>
+                  <Font name="Marlett" size="55.0" />
+               </font>
+            </Text>
+      <Button layoutX="485.0" layoutY="172.0" mnemonicParsing="false" onAction="#searchHotel" style="-fx-background-color: #34e0a1;" text="Cerca" textOverrun="CENTER_ELLIPSIS" />
+            <TextField fx:id="searchbar" cacheShape="false" layoutX="151.0" layoutY="172.0" prefHeight="25.0" prefWidth="321.0" promptText="Hotel, Città oppure Città" />
+      <Button layoutX="640.0" layoutY="15.0" onAction="#login" prefHeight="44.0" prefWidth="46.0" style="-fx-background-color: transparent;" AnchorPane.topAnchor="15.0">
+         <graphic>
+            <ImageView fitHeight="28.0" fitWidth="26.0" layoutX="595.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icon/icona.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="14.0" layoutY="15.0" onAction="#loadNotification" prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: transparent;" AnchorPane.topAnchor="15.0">
+         <graphic>
+            <ImageView fitHeight="36.0" fitWidth="37.0" layoutX="22.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icon/letter.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Text fill="#2dd296" layoutX="240.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Top 3 migliori Hotel">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Label fx:id="nome3" alignment="CENTER" layoutX="474.0" layoutY="304.0" prefHeight="25.0" prefWidth="172.0" text="nome" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label fx:id="descrizione3" layoutX="476.0" layoutY="329.0" prefHeight="65.0" prefWidth="172.0" text="Descrizione" wrapText="true">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label fx:id="città3" alignment="TOP_LEFT" layoutX="474.0" layoutY="405.0" prefHeight="25.0" prefWidth="172.0" text="Città" textAlignment="CENTER">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Label fx:id="rank3" alignment="TOP_LEFT" layoutX="474.0" layoutY="437.0" prefHeight="25.0" prefWidth="172.0" text="Rank:" textAlignment="CENTER">
+         <font>
+            <Font size="13.0" />
+         </font></Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="180.0" layoutX="260.0" layoutY="294.0" stroke="BLACK" strokeType="INSIDE" width="180.0" />
+      <Label fx:id="nome2" alignment="CENTER" layoutX="262.0" layoutY="304.0" prefHeight="25.0" prefWidth="172.0" text="nome" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="descrizione2" layoutX="263.0" layoutY="329.0" prefHeight="65.0" prefWidth="172.0" text="Descrizione" wrapText="true">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="città2" alignment="TOP_LEFT" layoutX="262.0" layoutY="405.0" prefHeight="25.0" prefWidth="172.0" text="Città" textAlignment="CENTER">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="rank2" alignment="TOP_LEFT" layoutX="262.0" layoutY="437.0" prefHeight="25.0" prefWidth="172.0" text="Rank:" textAlignment="CENTER">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="180.0" layoutX="50.0" layoutY="294.0" stroke="BLACK" strokeType="INSIDE" width="180.0" />
+      <Label fx:id="nome1" alignment="CENTER" layoutX="52.0" layoutY="304.0" prefHeight="25.0" prefWidth="172.0" text="nome" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="descrizione1" layoutX="53.0" layoutY="329.0" prefHeight="65.0" prefWidth="172.0" text="Descrizione" wrapText="true">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="città1" alignment="TOP_LEFT" layoutX="52.0" layoutY="405.0" prefHeight="25.0" prefWidth="172.0" text="Città" textAlignment="CENTER">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="rank1" alignment="TOP_LEFT" layoutX="52.0" layoutY="437.0" prefHeight="25.0" prefWidth="172.0" text="Rank:" textAlignment="CENTER">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Circle fx:id="ledNotification" fill="#ff391f" layoutX="57.0" layoutY="25.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Text layoutX="645.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profilo" />
+      <Text layoutX="16.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Notifiche" />
+      </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+</AnchorPane>
